@@ -3,7 +3,9 @@ using Microsoft.UI;
 using Microsoft.UI.Windowing;
 using Windows.Graphics;
 
-#endif 
+#endif
+
+using SciCalc.Views;
 
 namespace SciCalc
 {
@@ -29,7 +31,7 @@ namespace SciCalc
 		});        
 #endif
 
-			MainPage = new AppShell();
+			MainPage = new CalculatorPage();
 		}
 	}
 }
