@@ -69,7 +69,8 @@
                 Offset="6,6"
                 Radius="12"
                 Opacity="0.5"/>
-            <Setter Property="FontAutoScalingEnabled" Value="False"/>
+        </Setter>
+        <Setter Property="FontAutoScalingEnabled" Value="False"/>
     </Style>
         
     <!--Label styles-->
