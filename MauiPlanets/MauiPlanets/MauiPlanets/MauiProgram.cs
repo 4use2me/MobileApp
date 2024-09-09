@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace MauiApp1
+namespace MauiPlanets
 {
     public static class MauiProgram
     {
@@ -11,9 +11,8 @@ namespace MauiApp1
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
                 {
-                    fonts.AddFont("Montserrat-Medium.ttf", "RegularFont");
-                    fonts.AddFont("Montserrat-SemiBold.ttf", "MediumFont");
-                    fonts.AddFont("Montserrat-Bold.ttf", "BoldFont")
+                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
 #if DEBUG
