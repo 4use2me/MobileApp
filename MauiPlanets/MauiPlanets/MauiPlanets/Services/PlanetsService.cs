@@ -101,7 +101,7 @@ internal static class PlanetsService
         new()
         {
             Name = "Uranus",
-            Subtitle = "The cold ball",
+            Subtitle = "The Herchel Planet",
             HeroImage = "uranus.png",
             Description = "Uranus is the first planet so far away from the Earth that it can only be seen with the use of a telescope. When it was first discovered in 1781, scientists didn't know what they had found. As astronomers studied the object more closely, they discovered that it had a circular orbit around the Sun. They had found the seventh planet.",
             AccentColorStart = Color.FromArgb("#9d4a40"),
@@ -116,9 +116,10 @@ internal static class PlanetsService
         new()
         {
             Name = "Neptune",
-            Subtitle = "Eighth & fathest-away",
+            Subtitle = "The god of the sea",
             HeroImage = "neptune.png",
-            Description = "Imagine being so good at math that you could figure out the location of a planet you had never even seen! That is what John C. Adams did in 1843 when he discovered Neptune.",
+            Description = "Imagine being so good at math that you could figure out the location of a planet" +
+                 "you had never even seen! That is what John C. Adams did in 1843 when he discovered Neptune.",
             AccentColorStart = Color.FromArgb("#0c293d"),
             AccentColorEnd = Color.FromArgb("#26abe0"),
             Images = new()
@@ -130,7 +131,7 @@ internal static class PlanetsService
         }
     };
 
-    public static List<Planet> GetAllPlanets()
+     public static List<Planet> GetAllPlanets()
         => planets;
 
     public static Planet GetPlanet(string planetName)
