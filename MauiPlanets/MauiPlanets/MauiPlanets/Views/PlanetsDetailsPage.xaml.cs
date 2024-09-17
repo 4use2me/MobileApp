@@ -11,10 +11,10 @@ public partial class PlanetsDetailsPage : ContentPage
     }
 
     // Sündmusekäsitleja BackButtonile
-    private void BackButton_Clicked(object sender, EventArgs e)
+    async void BackButton_Clicked(System.Object sender, System.EventArgs e)
     {
         // Tagasi liikumise loogika
-        Navigation.PopAsync();
+        await Navigation.PopAsync();
     }
 }
 

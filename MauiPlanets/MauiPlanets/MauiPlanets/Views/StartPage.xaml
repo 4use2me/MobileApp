@@ -101,6 +101,28 @@
             WidthRequest="200"
             HeightRequest="200"/>
 
+        <Image 
+            x:Name="imgPluto"
+            Opacity="0"
+            Source="pluto.png"
+            VerticalOptions="Start"
+            HorizontalOptions="End"
+            TranslationX="-58"
+            TranslationY="158"
+            WidthRequest="56"
+            HeightRequest="56"/>
+
+        <Image 
+            x:Name="imgEris"
+            Opacity="0"
+            Source="eris.png"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"
+            TranslationX="70"
+            TranslationY="40"
+            WidthRequest="30"
+            HeightRequest="30"/>
+
         <!--Intro Box-->
         <Border
             x:Name="imgIntro"
