@@ -10,7 +10,7 @@ using System.Linq.Expressions;
 
 namespace MauiCRUD.Data
 {
-    internal class DatabaseContext : IAsyncDisposable
+    public class DatabaseContext : IAsyncDisposable
     {
         private const string DbName = "CRUDdb3";
         private static string DbPath => Path.Combine(".", DbName);
